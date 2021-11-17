@@ -1,4 +1,5 @@
 """
+Task is here: https://stepik.org/lesson/415554/step/1?unit=405083
 first_quarter =  x > 0, y > 0
 second_quarter = x < 0, y > 0
 third_quarter =  x < 0, y < 0
@@ -22,3 +23,5 @@ for idx in coordinates:
         quarters[4] += 1
 print(coordinates)
 print(quarters)
+print(f"Первая четверть: {quarters[1]}\nВторая четверть: {quarters[2]}\n"
+      f"Третья четверть: {quarters[3]}\nЧетвертая четверть: {quarters[4]}")
